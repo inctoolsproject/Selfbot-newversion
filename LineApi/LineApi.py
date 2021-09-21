@@ -39,7 +39,7 @@ class LINE:
     self._headers = {
               'X-Line-Application': 'IOSIPAD 7.14.0 iPhone OS 10.12.0' 
               'X-Line-Access': self.authToken, 
-              'User-Agent': 'Line/7.18.1 
+              'User-Agent': 'Line/7.18.1' 
    }
     self.Poll = Poll(self.authToken)
     self.channel = channel.Channel(self.authToken)
