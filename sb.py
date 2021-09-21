@@ -7,7 +7,7 @@ from akad.ttypes import *
 from multiprocessing.import Pool, Process
 from time import sleep
 from humanfriendly.import format_timespan, format_size, format_number, format_length
-from import pytz, pafy, time, timeit, random, sys, ast, re, os, json, subprocess, threading, string, codecs, requests, tweepy, ctypes, urllib, wikipedia
+from pytz, pafy, time, timeit, random, sys, ast, re, os, json, subprocess, threading, string, codecs, requests, tweepy, ctypes, urllib, wikipedia import
 from datetime import timedelta, date
 from datetime import datetime
 from urllib parse import quote
