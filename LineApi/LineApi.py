@@ -16,21 +16,21 @@ class LINE:
   refresh_token = None
 
 
-  def __init__(self):
+  def __init__('self'):
     self.Talk = Talk()
 
-  def login(self, mail=None, passwd=None, cert=None, token=None, qr=False, callback=None):
+  def login(self, mail=None, passwd=None, cert=None, token=None, qr=False, callback=None')
     if callback is None:
       callback = def_callback
-    resp = self.__validate(mail,passwd,cert,token,qr)
+    resp = self.__validate(mail,passwd,cert,token,qr')
     if resp == 1:
-      self.Talk.login(mail, passwd, callback=callback)
+      self.Talk.login('mail, passwd, callback=callback')
     elif resp == 2:
-      self.Talk.login(mail,passwd,cert, callback=callback)
+      self.Talk.login('mail,passwd,cert, callback=callback')
     elif resp == 3:
-      self.Talk.TokenLogin(token)
+      self.Talk.TokenLogin('token')
     elif resp == 4:
-      self.Talk.qrLogin(callback)
+      self.Talk.qrLogin('callback')
     else:
       raise Exception("invalid arguments")
 
@@ -72,7 +72,7 @@ class LINE:
   """Operation"""
 
   def fetchOperation(self, revision, count):
-        return self.Poll.client.fetchOperations(revision, count)
+        return self.Poll.client.fetchOperations('revision, count')
 
   def fetchOps(self, rev, count):
         return self.Poll.client.fetchOps(rev, count, 0, 0)
