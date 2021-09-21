@@ -1,6 +1,6 @@
  # -*- coding: utf-8 -*-
-from thrift transport import TTransport TSocket THttpClient TTransport TZlibTransport
-from thrift protocol import TCompactProtocol TMultiplexedProtocol TProtocol
+from thrift transport import,TTransport,TSocket,THttpClient,TTransport,TZlibTransport
+from thrift protocol import,TCompactProtocol,TMultiplexedProtocol,TProtocol
 from thrift server import THttpServer TServer TProcessPoolServer
 from linepy import *
 from akad ttypes import *
@@ -16,7 +16,7 @@ import youtube_dl
 from zalgo_text import zalgo
 from threading import Thread,Event
 import wikipedia as wiki
-requests packages.urllib3.disable_warnings()
+requests.packages.urllib3.disable_warnings()
 from ttypes import LoginRequest
 import json, requests, LineService
 from thrift transport import THttpClient
