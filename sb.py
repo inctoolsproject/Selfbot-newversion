@@ -49,7 +49,7 @@ Headers1 = {
 connect2 = 'WIN'
 Headers2 = {
         'User-Agent': "Line/7.18.1",
-        'X-Line-Application': "DESKTOPWIN\t5.5.5ARIFISTIFIK\t11.2.5",
+        'X-Line-Application': "DESKTOPWIN\t6.0.0ARIFISTIFIK\t11.2.5",
         "x-lal": "ja-US_US",
     }
 connect3 = 'ios'
