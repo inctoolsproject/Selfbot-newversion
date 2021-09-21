@@ -11,7 +11,7 @@ cl.loginResult()
 
 ki = kk = kc = cl 
 
-print "login success"
+print "ptatan1983 login success"
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
