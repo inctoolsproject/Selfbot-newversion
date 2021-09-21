@@ -1,6 +1,6 @@
-# -*- coding: utf-8 -*-
-from thrift.transport import TTransport TSocket THttpClient TTransport TZlibTransport
-from thrift.protocol import TCompactProtocol TMultiplexedProtocol TProtocol
+ # -*- coding: utf-8 -*-
+from thrift.transport import,TTransport,TSocket,THttpClient,TTransport,TZlibTransport
+from thrift.protocol import,TCompactProtocol,TMultiplexedProtocol,TProtocol
 from thrift.server import THttpServer TServer TProcessPoolServer
 from linepy import *
 from akad.ttypes import *
