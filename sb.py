@@ -22,7 +22,7 @@ import json, requests, LineService
 from thrift.transport import THttpClient
 
 botStart = time.time()
-cl = LINE("ENaoOR7jsGlIhxfxBUUb.0PzLwS72Fl1EGGJMnIN3IW.7k4OIV4TbYJWJy52Z2RVtPMaOp+J47jcosfbrQ+QDUE=")
+cl = LINE("UqDG1qwjuufwlwI7kVmshsT96v1gNS5qzq1ja60hOlcUk/kePj7YvlBZwccfljjUbEdAQg3kMivW17QgR+13izCFCXKNEdwCxyUGESOzdwyOC22bmMJphdXhxPwsCFCXKNEdwCxyUGESOzdwyOC22bmMqSPhX/zBwLGUS=")
 #cl = LINE("YOUR TOKEN")
 #cl = LINE("Email","Password")
 
@@ -280,7 +280,7 @@ def Camera(to, text):
                "aspectMode": "cover",
                "action": {
                  "type": "uri",
-                 "uri": "https://line.me/ti/p/~arifistifik"
+                 "uri": "https://line.me/ti/p/~ptatan1983"
                  }
                },
                    "type": "bubble",
@@ -326,7 +326,7 @@ def sendTemplates(to, data):
     data = data
     url = "https://api.line.me/message/v3/share"
     headers = {}
-    headers['User-Agent'] = 'Mozilla/5.0 (Linux; Android 8.1.0; Redmi Note 5 Build/OPM1.171019.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/67.0.3396.87 Mobile Safari/537.36 Line/8.1.1'  
+    headers['User-Agent'] = 'Mozilla/5.0 (Linux; Android 9; CPH2015 Build/PPR1.180610.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/93.0.4577.82 Mobile Safari/537.36 Line/11.16.2'  
     headers['Content-Type'] = 'application/json'  
     headers['Authorization'] = 'Bearer eyJhbGciOiJIUzI1NiJ9.5uMcEEHahauPb5_MKAArvGzEP8dFOeVQeaMEUSjtlvMV9uuGpj827IGArKqVJhiGJy4vs8lkkseiNd-3lqST14THW-SlwGkIRZOrruV4genyXbiEEqZHfoztZbi5kTp9NFf2cxSxPt8YBUW1udeqKu2uRCApqJKzQFfYu3cveyk.GoRKUnfzfj7P2uAX9vYQf9WzVZi8MFcmJk8uFrLtTqU'
     sendPost = requests.post(url, data=json.dumps(data), headers=headers)
@@ -437,7 +437,7 @@ def sendTextTemplateMaster(to, text):
               "action": {
                   "type": "uri",
                   "label": "DPK",
-                  "uri": "http://line.me/ti/p/~@cob0606n"
+                  "uri": "http://line.me/ti/p/~@642xtzwc"
               }
           }, {
               "flex": 3,
@@ -449,7 +449,7 @@ def sendTextTemplateMaster(to, text):
               "action": {
                   "type": "uri",
                   "label": "CREATOR",
-                  "uri": "http://line.me/ti/p/~@cob0606n"
+                  "uri": "http://line.me/ti/p/~@642xtzwc"
               }
           }]
       }]
@@ -540,7 +540,7 @@ def clBot(op):
                 "contents": [
                   {
                     "type": "text",
-                    "text": "SELFBOT ONLY",
+                    "text": "꧁TANBOTNEVERDIES꧂",
                     "size": "xl",
                     "wrap": True,
                     "weight": "bold",
@@ -627,14 +627,14 @@ def clBot(op):
         "contents": [
           {
             "type": "text",
-        "text": "DPKBOT",
+        "text": "꧁TANBOTNEVERDIES꧂",
         "size": "xl",
         "wrap": True,
         "weight": "bold",
         "color": "#FFFF00",
         "action": {
           "type": "uri",
-          "uri": "http://line.me/ti/p/~@cob0606n",
+          "uri": "http://line.me/ti/p/~@642xtzwc",
         },
         "align": "center"
       },
@@ -651,7 +651,7 @@ def clBot(op):
         "color": "#FFFF00",
         "action": {
           "type": "uri",
-          "uri": "http://line.me/ti/p/~@cob0606n"
+          "uri": "http://line.me/ti/p/~@642xtzwc"
         },
         "align": "center"
       },
@@ -679,7 +679,7 @@ def clBot(op):
                 "contents": [
                   {
                     "type": "text",
-                    "text": "SELFBOT ONLY",
+                    "text": "꧁TANBOTNEVERDIES꧂",
                     "size": "xl",
                     "wrap": True,
                     "weight": "bold",
@@ -773,7 +773,7 @@ def clBot(op):
         "color": "#FFFF00",
         "action": {
           "type": "uri",
-          "uri": "http://line.me/ti/p/~@cob0606n",
+          "uri": "http://line.me/ti/p/~@642xtzwc",
         },
         "align": "center"
       },
@@ -790,7 +790,7 @@ def clBot(op):
         "color": "#FFFF00",
         "action": {
           "type": "uri",
-          "uri": "http://line.me/ti/p/~@cob0606n"
+          "uri": "http://line.me/ti/p/~@642xtzwc"
         },
         "align": "center"
       },
@@ -818,7 +818,7 @@ def clBot(op):
                 "contents": [
                   {
                     "type": "text",
-                    "text": "SELFBOT ONLY",
+                    "text": "꧁TANBOTNEVERDIES꧂",
                     "size": "xl",
                     "wrap": True,
                     "weight": "bold",
@@ -912,7 +912,7 @@ def clBot(op):
         "color": "#FFFF00",
         "action": {
           "type": "uri",
-          "uri": "http://line.me/ti/p/~@cob0606n",
+          "uri": "http://line.me/ti/p/~@642xtzwc",
         },
         "align": "center"
       },
@@ -929,7 +929,7 @@ def clBot(op):
         "color": "#FFFF00",
         "action": {
           "type": "uri",
-          "uri": "http://line.me/ti/p/~@cob0606n"
+          "uri": "http://line.me/ti/p/~@642xtzwc"
         },
         "align": "center"
       },
@@ -957,7 +957,7 @@ def clBot(op):
                 "contents": [
                   {
                     "type": "text",
-                    "text": "SELFBOT ONLY",
+                    "text": "꧁TANBOTNEVERDIES꧂",
                     "size": "xl",
                     "wrap": True,
                     "weight": "bold",
@@ -1051,7 +1051,7 @@ def clBot(op):
         "color": "#FFFF00",
         "action": {
           "type": "uri",
-          "uri": "http://line.me/ti/p/~@cob0606n",
+          "uri": "http://line.me/ti/p/~@642xtzwc",
         },
         "align": "center"
       },
@@ -1068,7 +1068,7 @@ def clBot(op):
         "color": "#FFFF00",
         "action": {
           "type": "uri",
-          "uri": "http://line.me/ti/p/~@cob0606n"
+          "uri": "http://line.me/ti/p/~@642xtzwc"
         },
         "align": "center"
       },
@@ -1096,7 +1096,7 @@ def clBot(op):
                 "contents": [
                   {
                     "type": "text",
-                    "text": "SELFBOT ONLY",
+                    "text": "꧁TANBOTNEVERDIES꧂",
                     "size": "xl",
                     "wrap": True,
                     "weight": "bold",
@@ -1190,7 +1190,7 @@ def clBot(op):
         "color": "#FFFF00",
         "action": {
           "type": "uri",
-          "uri": "http://line.me/ti/p/~@cob0606n",
+          "uri": "http://line.me/ti/p/~@642xtzwc",
         },
         "align": "center"
       },
@@ -1207,7 +1207,7 @@ def clBot(op):
         "color": "#FFFF00",
         "action": {
           "type": "uri",
-          "uri": "http://line.me/ti/p/~@cob0606n"
+          "uri": "http://line.me/ti/p/~@642xtzwc"
         },
         "align": "center"
       },
@@ -1235,7 +1235,7 @@ def clBot(op):
                 "contents": [
                   {
                     "type": "text",
-                    "text": "SELFBOT ONLY",
+                    "text": "꧁TANBOTNEVERDIES꧂",
                     "size": "xl",
                     "wrap": True,
                     "weight": "bold",
@@ -1329,7 +1329,7 @@ def clBot(op):
         "color": "#FFFF00",
         "action": {
           "type": "uri",
-          "uri": "http://line.me/ti/p/~@cob0606n",
+          "uri": "http://line.me/ti/p/~@642xtzwc",
         },
         "align": "center"
       },
@@ -1346,7 +1346,7 @@ def clBot(op):
         "color": "#FFFF00",
         "action": {
           "type": "uri",
-          "uri": "http://line.me/ti/p/~@cob0606n"
+          "uri": "http://line.me/ti/p/~@642xtzwc"
         },
         "align": "center"
       },
@@ -1432,7 +1432,7 @@ def clBot(op):
                                                         "size": "full", 
                                                         "action": {
                                                             "type": "uri",
-                                                            "uri": "http://line.me/ti/p/~@cob0606n"
+                                                            "uri": "http://line.me/ti/p/~@642xtzwc"
                                  }                                                
                        }
                       ]
@@ -1469,7 +1469,7 @@ def clBot(op):
                         timeNow = time.time()
                         runtime = timeNow - botStart
                         runtime = format_timespan(runtime)
-                        ret_ = "╔ Country : INDONESIA "
+                        ret_ = "╔ Country : THAILAND "
                         ret_ += "\n╠ My Name : {}".format(contact.displayName)
                         ret_ += "\n╠ Group : {}".format(str(len(grouplist)))
                         ret_ += "\n╠ Friend : {}".format(str(len(contactlist)))
@@ -1483,7 +1483,7 @@ def clBot(op):
                         cl.sendMessage(msg.to, str(e))
                 elif text.lower() == 'status':
                     try:
-                        ret_ = "━━━━┅═❉ই۝ई❉═┅━━━━\n          ❇    STATUS    ❇\n╭━━━━━━━━━━━━━━━━\n║╭❉ 🔵[ON]|[OFF]🔴 ❇\n║┝───────────────"
+                        ret_ = "꧁TANBOTNEVERDIES꧂\n          ❇    STATUS    ❇\n╭━━━━━━━━━━━━━━━━\n║╭❉ 🔵[ON]|[OFF]🔴 ❇\n║┝───────────────"
                         if settings["autoAdd"] == True: ret_ += "\n║│🔵 Auto Add [ON]"
                         else: ret_ += "\n║│🔴 Auto Add [OFF]"
                         if settings["autoJoin"] == True: ret_ += "\n║│🔵 Auto Join [ON]"
