@@ -1460,7 +1460,7 @@ def clBot(op):
                 elif text.lower() == 'about':
                     try:
                         arr = []
-                        owner = "ud296655acef67cbd5e8208e63629f78b"
+                        owner = "uda8195e53e6c6e17f3f745743e477100"
                         creator = cl.getContact(owner)
                         contact = cl.getContact(clMID)
                         grouplist = cl.getGroupIdsJoined()
@@ -1874,7 +1874,7 @@ def clBot(op):
                                 textToSearch = msg.text.replace(sep[0] + " ","")
                                 query = urllib.parse.quote(textToSearch)
                                 search_url="https://www.youtube.com/results?search_query="
-                                mozhdr = {'User-Agent': 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-GB; rv:1.9.0.3) Gecko/2008092417 Firefox/3.0.3'}
+                                mozhdr = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36 (Windows NT 10.0; WOW64; rv:70.0) Gecko/20100101 Firefox/70.0'}
                                 sb_url = search_url + query
                                 sb_get = requests.get(sb_url, headers = mozhdr)
                                 soupeddata = BeautifulSoup(sb_get.content, "html.parser")
@@ -2087,7 +2087,7 @@ def clBot(op):
                                 textToSearch = msg.text.replace(sep[0] + " ","")
                                 query = urllib.parse.quote(textToSearch)
                                 search_url="https://www.youtube.com/results?search_query="
-                                mozhdr = {'User-Agent': 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-GB; rv:1.9.0.3) Gecko/2008092417 Firefox/3.0.3'}
+                                mozhdr = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:70.0) Gecko/20100101 Firefox/70.0'}
                                 sb_url = search_url + query
                                 sb_get = requests.get(sb_url, headers = mozhdr)
                                 soupeddata = BeautifulSoup(sb_get.content, "html.parser")
@@ -2112,7 +2112,7 @@ def clBot(op):
                                 textToSearch = msg.text.replace(sep[0] + " ","")
                                 query = urllib.parse.quote(textToSearch)
                                 search_url="https://www.youtube.com/results?search_query="
-                                mozhdr = {'User-Agent': 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-GB; rv:1.9.0.3) Gecko/2008092417 Firefox/3.0.3'}
+                                mozhdr = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:70.0) Gecko/20100101 Firefox/70.0'}
                                 sb_url = search_url + query
                                 sb_get = requests.get(sb_url, headers = mozhdr)
                                 soupeddata = BeautifulSoup(sb_get.content, "html.parser")
@@ -2159,7 +2159,7 @@ def clBot(op):
                                         "imageUrl": "https://os.line.naver.jp/os/p/{}".format(ids.mid),
                                         "action": {
                                           "type": "uri",
-                                          "uri": "http://line.me/ti/p/~@cob0606n"
+                                          "uri": "http://line.me/ti/p/~@642xtzwc"
                                           }
                                         }
                                       )
@@ -2190,7 +2190,7 @@ def clBot(op):
                                                                 {
                                                                     "type": "uri",
                                                                     "label": "CREATOR",
-                                                                    "uri": "http://line.me/ti/p/~@cob0606n",
+                                                                    "uri": "http://line.me/ti/p/~@642xtzwc",
                                                                 }
                                                             ]
                                                         }
@@ -2420,7 +2420,7 @@ def clBot(op):
                                                         "action": {
                                                             "type": "uri",
                                                             "label": "Mp3",
-                                                            "uri": "line://app/1602687308-GXq4Vvk9?type=text&text=mp3%20https://www.youtube.com/watch?v={}".format(str(music['id']['videoId']))
+                                                            "uri": "line://app/1626602314-Vrp0l7Ae?type=text&text=mp3%20https://www.youtube.com/watch?v={}".format(str(music['id']['videoId']))
                                                         }
                                                     }]
                                                 }, {
@@ -2432,7 +2432,7 @@ def clBot(op):
                                                     "action": {
                                                         "type": "uri",
                                                         "label": "Mp4",
-                                                        "uri": "line://app/1602687308-GXq4Vvk9?type=text&text=youtubemp4%20https://www.youtube.com/watch?v={}".format(str(music['id']['videoId']))
+                                                        "uri": "line://app/1626602314-Vrp0l7Ae?type=text&text=youtubemp4%20https://www.youtube.com/watch?v={}".format(str(music['id']['videoId']))
                                                     }
                                                 }]
                                             }
@@ -2934,7 +2934,7 @@ def clBot(op):
               "action": {
                   "type": "uri",
                   "label": "CREATOR",
-                  "uri": "http://line.me/ti/p/~@cob0606n"
+                  "uri": "http://line.me/ti/p/~@642xtzwc"
               }
           }]
       }]
@@ -3011,7 +3011,7 @@ def clBot(op):
               "action": {
                   "type": "uri",
                   "label": "CREATOR",
-                  "uri": "http://line.me/ti/p/~@cob0606n"
+                  "uri": "http://line.me/ti/p/~@642xtzwc"
               }
           }]
       }]
