@@ -65,7 +65,7 @@ settings = {
     "autoLeave": False,
     "autoRead": False,
     "lang":"JP",
-    "commentPost": "DPK BOT HADIR BUAT LIKE STATUS KAMU \n Add my owner ID http://line.me/ti/p/~@cob0606n",
+    "commentPost": "꧁TANBOTNEVERDIES꧂ \n Add my owner ID http://line.me/ti/p/~@642xtzwc",
     "detectMention": True,
     "autoResponMessage": "Ngapain tag gua woy",
     "responsticker": False,
